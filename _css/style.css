@@ -48,7 +48,7 @@ background-color: aquamarine;
 /* -------HEADER SECTION------*/
 
 header{
-    background-image: url("../_images/IMG_0167.JPG");
+    background-image: url("../images/IMG_0167.JPG");
     height: 500px;
     background-size: cover;
     background-repeat: no-repeat;
@@ -244,21 +244,21 @@ header .vwork:hover{
 .my-projects .project-left{
      margin-right: 1%;
      margin-left: 2%;
-     background-image: url(../_images/Capture\ 1.PNG);
+     background-image: url(../images/Capture\ 1.PNG);
      background-size: cover;
 }
 .my-projects .project-center{
     
     margin-right: 1.5%;
     margin-left: 1.5%;
-    background-image: url(../_images/Capture\ 2.PNG);
+    background-image: url(../images/Capture\ 2.PNG);
     background-size: cover;
 }
 .my-projects .project-right{
   
     margin-right: 1%;
     margin-left: 2%;
-    background-image:url(../_images/Capture\ 3.PNG);
+    background-image:url(../images/Capture\ 3.PNG);
     background-size: cover;
 }
 
