@@ -1,0 +1,292 @@
+
+/* -------NAVIGATION PANEL------*/
+
+
+
+.logo, .menu {
+   display: inline-block;
+}
+
+.menu ol {
+
+    list-style: none;
+    margin: 0px;
+
+}
+.menu ol li {
+    padding-left: 15px;
+    display: inline-block;
+
+}
+.navigation{
+background-color: aquamarine;
+}
+
+.menu{
+    float: right;
+    margin: 20px;
+}
+
+.logo{
+    margin: 20px;
+}
+.menu ol li a{
+    text-decoration: none;
+    padding-top: 15px ; 
+    padding-bottom: 15px;
+    padding-right: 30px; 
+    padding-left: 30px; 
+}
+
+.menu ol li a:hover{
+    background-color: blue;
+    color: bisque;
+    transition: all 0.5s ease;
+
+}
+
+/* -------HEADER SECTION------*/
+
+header{
+    background-image: url("../_images/IMG_0167.JPG");
+    height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-weight: bold;
+    text-align: center;
+    background-attachment: fixed;
+    background-position-y: 60px;
+}
+header p{
+    margin: 0px;
+    color: chocolate;
+}
+.pic-container{
+    padding-top: 100px;
+}
+
+header h1{
+    padding: 20px ;
+
+}
+
+
+header .vwork{
+    display: inline-block;
+    text-decoration: none;
+    color: cornsilk;
+    background-color:chocolate;
+    padding: 15px 30px ;
+    border-radius:70px ;
+
+
+}
+header .contactme{
+    display: inline-block;
+    text-decoration: none;
+    color: whitesmoke;
+    background-color:cadetblue ;
+    padding: 15px 30px ;
+    border-radius:70px ;
+
+}
+
+header .vwork:hover{
+    background-color: coral;
+    color: darkgray;
+    transition:all 0.5s  ease;
+ }
+
+ header .contactme:hover{
+    background-color:greenyellow;
+    color: lightblue;
+    transition:all 0.5s  ease;
+
+ }
+    
+ /* ------ABOUT ME ----------*/
+
+ .aboutme{
+    width: 100%;
+    padding-top: 20px;
+    
+    margin-bottom: 50px;
+    text-align: center;
+    
+ }
+
+ .aboutme:after{
+
+    content: "";
+    display: block;
+    clear: both;
+ }
+  
+ .aboutme .left-col, .aboutme .right-col{
+
+    width: 50%;
+    float: left;
+ }
+
+ .aboutme .left-col img{
+     max-width: 100%;
+     padding-left: 5%;
+
+ }
+
+ .aboutme h2 {
+     text-transform: uppercase;
+     text-align: center;
+     padding-bottom: 20px;
+     
+ }
+
+ .aboutme h2:after{
+     content: "";
+     position: absolute;
+     width:80px ;
+    height: 2px;
+    margin-left:-40px ;
+    background-color: red;
+    left: 50px;
+    bottom: 0px;
+     
+ }
+
+ .aboutme .right-col {
+
+    padding-right: 5%;
+ }
+
+ 
+ /* ------ MY SKILLS SECTION ----------*/
+
+ .my-skills{
+
+   background-color: lightslategray;
+    padding-top: 50px;
+    
+    text-align: center;
+
+ }
+
+ .my-skills:after{
+     content: "";
+     display: block;
+     clear: both;
+ }
+
+ .my-skills .skills-left, .my-skills .skills-center, .my-skills .skills-right{
+
+        width: 33.3333333%;
+        display: inline-block;
+        float: left;
+        padding-left: 2%;
+        padding-right: 2%;
+ }
+
+ .wd, .gh, .ard {
+     font-size: 50px;
+     color:limegreen;
+ }
+
+ .my-skills h2{
+     padding-bottom: 40px;
+ }
+
+/* ------ MY PROJECTS SECTION ----------*/
+
+.my-projects{
+    text-align: center;
+  
+     padding-bottom: 50px;
+    
+}
+.my-projects:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.my-projects h2 {
+    
+    margin-bottom: 0px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    position: relative;
+}
+
+.my-projects h2:after{
+    content: "";
+    position: absolute; ;
+    width:80px ;
+    height: 2px;
+    margin-left:-40px ;
+    color: yellowgreen;
+    left: 50px;
+    bottom: 0px;
+
+}
+
+.my-projects .project-left,
+ .my-projects .project-center, 
+ .my-projects .project-right{
+
+    width: 30%;
+    display: inline-block;
+    height: 300px;
+    float: left;
+    position: relative;
+    background-color: limegreen;
+    overflow: hidden;
+
+}
+.my-projects .project-left{
+     margin-right: 1%;
+     margin-left: 2%;
+     background-image: url(../_images/Capture\ 1.PNG);
+     background-size: cover;
+}
+.my-projects .project-center{
+    
+    margin-right: 1.5%;
+    margin-left: 1.5%;
+    background-image: url(../_images/Capture\ 2.PNG);
+    background-size: cover;
+}
+.my-projects .project-right{
+  
+    margin-right: 1%;
+    margin-left: 2%;
+    background-image:url(../_images/Capture\ 3.PNG);
+    background-size: cover;
+}
+
+.my-projects .overlay{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    padding-top: 310px;
+}
+
+.my-projects .overlay:hover{
+    background-color: rgba(0,0,0,0.6);
+    padding-top: 130px;
+    transition: all 0.5s ease;
+}
+
+.overlay a{
+    text-decoration: none;
+    padding: 10px 20px;
+    font-weight: bold;
+    display: inline-block;
+    font-size: 18px;
+    border: 1px solid whitesmoke;
+     
+}
+
+
+
+
+
+ 
